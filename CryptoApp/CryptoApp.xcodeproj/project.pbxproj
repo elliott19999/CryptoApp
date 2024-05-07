@@ -11,6 +11,7 @@
 		01FF134F2BEACFB200EEA6C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF134E2BEACFB200EEA6C6 /* ContentView.swift */; };
 		01FF13512BEACFB400EEA6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FF13502BEACFB400EEA6C6 /* Assets.xcassets */; };
 		01FF13542BEACFB400EEA6C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FF13532BEACFB400EEA6C6 /* Preview Assets.xcassets */; };
+		01FF13932BEAD8F400EEA6C6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF13912BEAD8F400EEA6C6 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		01FF134E2BEACFB200EEA6C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01FF13502BEACFB400EEA6C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01FF13532BEACFB400EEA6C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01FF13912BEAD8F400EEA6C6 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		01FF134B2BEACFB200EEA6C6 /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				01FF13922BEAD8F400EEA6C6 /* Extensions */,
 				01FF134C2BEACFB200EEA6C6 /* CryptoAppApp.swift */,
 				01FF134E2BEACFB200EEA6C6 /* ContentView.swift */,
 				01FF13502BEACFB400EEA6C6 /* Assets.xcassets */,
@@ -65,6 +68,15 @@
 				01FF13532BEACFB400EEA6C6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01FF13922BEAD8F400EEA6C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				01FF13912BEAD8F400EEA6C6 /* Color.swift */,
+			);
+			name = Extensions;
+			path = ../../../../Downloads/Resources/Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +151,7 @@
 			files = (
 				01FF134F2BEACFB200EEA6C6 /* ContentView.swift in Sources */,
 				01FF134D2BEACFB200EEA6C6 /* CryptoAppApp.swift in Sources */,
+				01FF13932BEAD8F400EEA6C6 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
