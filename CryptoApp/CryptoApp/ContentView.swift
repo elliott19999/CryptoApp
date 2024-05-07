@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color.theme.backround
+            Color.theme.background
                 .ignoresSafeArea()
             VStack {
                 Text("Accent Color")
